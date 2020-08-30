@@ -1,9 +1,7 @@
-### Local Deployment
+Instructions for creating a new environment are in [this wiki](https://link-to-wiki.com)
 
-
-requirements for running locally
-
-- minikube
-  - minikube addons enable ingress
-  in order to enable the ingresses addon, minikube requires a vm-based driver instead of using docker as the driver. This deployment script is tested
-- helm
+requiremennts
+ - terraform requirements
+ - role/user has access to tf requirements resources
+ - github repos has to have aws secrets to use
+ - aws secret for db password

@@ -1,6 +1,6 @@
 #### README
 
-This repo is a simple helm chart to deploy a hello world type app on to minikube with a deployment, a service and a local ingress.
+This repo is a simple helm chart to deploy a hello world type app on to minikube with a deployment, a service and a local ingress. The actual deployed container is [this one.](https://hub.docker.com/r/nginxdemos/hello)
 
 
 #### Local Deployment

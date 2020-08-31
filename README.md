@@ -27,7 +27,7 @@ To deploy this helm chart onto AWS we have 2 options, a simple way and a more co
 
 Our first option is to run the minikube on a single, AWS EC2 instance with a public IP. In this case we would need to install `minikube`, `kubectl` and `helm` all on the single instance. We could drop the ingress entirely and create the service with type NodePort. Our `/etc/hosts` entry to `<EC2_elastic_ip> hello.local`
 
-*_Deploying to a more production like EKS cluster_*
+*_Deploying to an EKS cluster_*
 
 It is certainly possible to deploy all of this onto a fully production ready EKS cluster in AWS with terraform.
 
